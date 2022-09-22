@@ -13,11 +13,33 @@ position: absolute;
 .bds{
   height: 20vh;
   width: 20vw;
-  margin-top: 3vh;
+  margin-top: 0vh;
   margin-left: 70vw;
   position: absolute;
 }
 
 .ladinho{
   margin-left: 20vw;
+}
+
+.ladinho-2{
+  border: 1px solid #000000;
+  background-color: blue;
+  margin-right: 30vw;
+  position:absolute
+}
+
+.img-1{
+  margin-top: -10vh;
+  margin-left: 75vw;
+}
+
+.img-2{
+  margin-top: -5vh;
+  margin-left: 75vw;
+}
+
+.img-3{
+  margin-top: -6vh;
+  margin-left:75vw;
 }
