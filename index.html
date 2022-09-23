@@ -1,222 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title>ODS-9</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>ODS-9</title>
 </head>
-<body class="b"> 
-        <div class="container-fluid">
-        <img src="../ODS-9-Bootstrap/imgs/ODS.png" alt="">
+<body>
+    <div class="wraaper">
+          <!-- Titulo -->
+          <div class="container-fluid" id="cor">
+              <img src="img/Titulo_1.png" class="img-fluid">
+                <p></p>
+          </div>
+          <!-- Fim do titulo-->
+
+          <!-- 1º Texto -->
+          <h3 id="tittle">O que são as ODS?</h3>
+          <div class="table-responsive" id="seila">        
+            <table class="table-borderless">
+                <tr>
+                  <th><p class="fs-6">Os Objetivos de Desenvolvimento Sustentável (ODS) são parte de um projeto mais amplo, a Agenda 2030, adotada em 2015, durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável.
+                  São 17 objetivos – 16 temáticos e 1 sobre meios de implementação – desdobrados em 169 metas e 231 indicadores.
+                  O ODS 9 fala sobre “desenvolvimento de infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no acesso equitativo e preços acessíveis para todos”. 
+                  Se levarmos em conta que mais da metade da população global vive em cidades, questões como transportes de massa e energias renováveis são cada vez mais importantes.</p>
+                  </th>
+                  <th><img src="img/onu.png" id="img"></th>
+                </tr>
+            </table>
+          </div><br>
+          <!-- Fim do 1º Texto -->
+
+                <!-- CARROSSEL -->
+              <!--<div class="carrossel">-->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner" id="">
+                    <div class="carousel-item active">
+                      <img src="img/Image_1.png" class="mx-auto d-block" alt="..." style="width: 50%;">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Image_2.png" class="mx-auto d-block" alt="..." style="width: 50%;">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Image_3.png" class="mx-auto d-block" alt="..." style="width: 50%;">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/Image_4.png" class="mx-auto d-block" alt="..." style="width: 50%;">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              <!--</div>-->
+
+          <!-- Container - ODS_9 -->    
+          <div class="container p-2 my-5 bg-secondary text-white"><div class="table-responsive">        
+            <table class="table-borderless">
+                <tr>
+                  <th><p class="f-6">Indústria:
+                    A industrialização é um setor de enorme importância para o desenvolvimento de uma sociedade pois gera: crescimento econômico; impulsiona o desenvolvimento de novas tecnologias; cria oportunidades de trabalho e consequentemente reduz a pobreza.</p>
+                  </th>
+                  <th><img src="img/Indústria.png" id="img"></th>
+                </tr>
+            </table>
+          </div></div>
+
+          <div class="container p-2 my-5 bg-secondary text-white"><div class="table-responsive">        
+            <table class="table-borderless">
+                <tr>
+                  <th><p class="f-6">Inovação:
+                  Inovação não é necessariamente sobre fazer algo do “zero” (o que seria uma “invenção”), mas sim melhorar produtos, sistemas, estruturas e afins com o objetivo de alcançar melhores resultados e capturar mais valor.
+                  </th></p>
+                  <th><img src="img/Inovação.png" id="img"></th>
+                </tr>
+            </table>
+          </div></div>
+
+          <div class="container p-2 my-5 bg-secondary text-white"><div class="table-responsive">        
+            <table class="table-borderless">
+                <tr>
+                  <th><p class="f-6">Infraestrutura:
+                  Para que uma sociedade possa realizar suas atividades produtivas é preciso que haja condições fundamentais para isso esse conjunto de estruturas essenciais é chamado de infraestrutura e seus principais elementos são: sistemas de geração e distribuição de energia; de água e saneamento; de transporte terrestre, marítimo e aéreo; e de telecomunicações. 
+                  Uma infraestrutura resiliente é aquela preparada para lidar com os efeitos de situações adversas e desastres como enchentes e terremotos. Os serviços de infraestrutura têm que estar amplamente acessíveis a população o que exige grandes investimentos.</p>
+                  </th>
+                  <th><img src="img/Infraestrutura.png" id="img"></th>
+                </tr>
+            </table>
+          </div></div>
+          <!-- Fim Container - ODS_9 -->
+          
+          <!-- Objetivos/Metas-colapse/table -->
+        <p id="tittle">Objetivos</h11></p> 
+        <div class="table-responsive p-3">        
+          <table class="table-borderless">
+              <tr>
+                <th><p class="f-6"><b> É importante ressaltar que esses objetivos envolvem medidas para melhoria na saúde, educação, economia, redução das desigualdades, violências, impactos ambientais, entre outros. Tudo em busca de um mundo melhor.</b></p>
+                </th>
+              </tr>
+          </table>
         </div>
-        <h1>
-            <b>O que são as ODS</b>
-        </h1>
 
         
-       <div class="l"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.</p></div>
-       <div class="bds"><img src="../ODS-9-Bootstrap/imgs/ONU azul.png"></div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="accordion">
 
-<!-- Carousel -->
-<div class="ladinho">
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <div class="card my-3" id="cor">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+              <b>Meta 9.1</b>
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6">
+                <b>Nações Unidas<br>
+                Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e
+                o bem-estar humano, com foco no acesso equitativo e a preços acessíveis para todos.<br>
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                Brasil<br>
+
+                Aprimorar o sistema viário do País, com foco em sustentabilidade e segurança no trânsito e transporte, equalizando as desigualdades regionais, promovendo a integração regional 
+                e transfronteiriça, na busca de menor custo, para o transporte de passageiros e de cargas, evitando perdas, com maior participação dos modos de alta capacidade como ferroviário,
+                aquaviário e dutoviário, tornando-o acessível e proporcionando bem-estar a todos.</b></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card my-3" id="cor">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+              <b>Meta 9.2</b>
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6">
+                <b>Nações Unidas<br>
+                Promover a industrialização inclusiva e sustentável e, até 2030, aumentar significativamente a participação da indústria no emprego e no produto interno bruto, de acordo com as circunstâncias 
+                nacionais, e dobrar sua participação nos países de menor desenvolvimento relativo.<br>
+
+                Brasil<br>
+                Até 2030, promover a atividade econômica inclusiva e sustentável e a atividade de alta complexidade tecnológica, com foco na elevação da produtividade, do emprego e do PIB
+                , e com melhora nas condições de trabalho e na apropriação dos ganhos de produtividade advindos.</b></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card my-3"  id="cor">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+              <b>Meta 9.3</b>
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6"><b>Nações Unidas<br>
+                Aumentar o acesso das pequenas indústrias e outras empresas, particularmente em países em desenvolvimento, aos serviços financeiros, incluindo crédito acessível e propiciar 
+                sua integração em cadeias de valor e mercados.<br>
+
+                Brasil<br>
+                Aumentar e desburocratizar o acesso das micro e pequenas empresas a todos os serviços financeiros, garantindo crédito em condições adequadas à realidade dessas empresas, inclusive por meio de soluções tecnológicas inovadoras, para propiciar sua integração em cadeias de valor e mercados.</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="card my-3"  id="cor">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+              <b>Meta 9.4</b>
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6"><b>Nações unidas<br>
+                Até 2030, modernizar a infraestrutura e reabilitar as indústrias para torná-las sustentáveis, com eficiência aumentada no uso de recursos e maior adoção de tecnologias e processos industriais limpos e ambientalmente adequados; com todos os países atuando de acordo com suas respectivas capacidades.<br>
+
+                Brasil<br>
+                Até 2030, modernizar a infraestrutura e reabilitar as atividades econômicas para torná-las sustentáveis, com foco no uso de recursos renováveis e maior adoção de tecnologias e processos industriais limpos e ambientalmente adequados.</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="card my-3" id="cor">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseFive">
+              <b>Meta 9.5</b>
+              </a>
+            </div>
+            <div id="collapseFive" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6"><b>Nações unidas<br>
+                Fortalecer a pesquisa científica, melhorar as capacidades tecnológicas de setores industriais em todos os países, particularmente nos países em desenvolvimento, inclusive, até 2030, incentivando a inovação e aumentando substancialmente o número de trabalhadores de pesquisa e desenvolvimento por milhão de pessoas e os gastos público e privado em pesquisa e desenvolvimento.<br>
+                Brasil<br>
+                Fortalecer a pesquisa científica e melhorar as capacidades tecnológicas das empresas, incentivando, até 2030, a inovação, visando aumentar o emprego do conhecimento científico e tecnológico nos desafios socioeconômicos nacionais e nas tecnologias socio ambientalmente inclusivas; e aumentar a produtividade agregada da economia.
+                a) Aumentar para 3.000 o número de trabalhadores de pesquisa e desenvolvimento por milhão de habitantes;
+                b) Aumentar para 120.000 o número de técnicos e pesquisadores ocupados em P&D nas empresas; e
+                c) Aumentar para 2,00% os gastos público e privado em pesquisa e desenvolvimento em relação ao PIB.</b></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card my-3" id="cor">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+              <b>Meta.a</b>
+              </a>
+            </div>
+            <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6"><b>Nações unidas<br>
+                Facilitar o desenvolvimento de infraestrutura sustentável e resiliente em países em desenvolvimento, por meio de maior apoio financeiro, tecnológico e técnico aos países africanos, aos países de menor desenvolvimento relativo, aos países em desenvolvimento sem litoral e aos pequenos Estados insulares em desenvolvimento.<br>
+                Brasil<br>
+                Meta mantida sem alteração.</b></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card my-3"  id="cor">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
+              <b>Meta.b</b>
+              </a>
+            </div>
+            <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6"><b> Nações unidas<br>
+                Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais nos países em desenvolvimento, inclusive garantindo um ambiente político propício para, entre outras coisas, diversificação industrial e agregação de valor às commodities.<br>
+                Brasil<br>
+                Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais, por meio de políticas públicas que assegurem um ambiente institucional e normativo favorável para, entre outras coisas, promover a diversificação industrial e a agregação de valor às commodities.</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="card my-3"  id="cor">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
+              <b>Meta.c</b>
+              </a>
+            </div>
+            <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p class="f-6"><b>Nações unidas<br>
+                Aumentar significativamente o acesso às tecnologias de informação e comunicação e empenhar-se para procurar ao máximo oferecer acesso universal e a preços acessíveis à internet nos países menos desenvolvidos, até 2020.<br>
+                Brasil<br>
+                Aumentar significativamente o acesso às tecnologias de informação e comunicação e empenhar-se para oferecer acesso universal e a preços acessíveis à internet, até 2020, buscando garantir a qualidade, a privacidade, a proteção de dados e a segurança cibernética.</b></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Fim Objetivos/Metas -->
+
+        <!-- Texto do Brasil - Table -->
+        <p id="tittle">No Brasil</p>
+        <div class="table-responsive">        
+          <table class="table-borderless">
+              <tr>
+                <th><p class="f-6">Em uma lista que analisa fatores como performance econômica, eficiência do governo, eficiência empresarial e infraestrutura de 63 países, o Brasil alcança o 59º lugar. Em 2022, o país perdeu duas posições em relação a 2021, segundo análise do International Institute for Management Development (IMD), com sede na Suíça.
+                De acordo com a pesquisadora Laura Cury, co-facilitadora do Grupo de Grupo de Trabalho (GT) da Sociedade Civil para a Agenda 2030 e assessora de relações internacionais da ACT Promoção em Saúde, o diagnóstico feito pela sexta edição do Relatório Luz é grave.
+                Segundo o levantamento, que traça um panorama da implementação das metas, apenas 0,59% dos 168 pontos analisados apresentam progresso satisfatório. Outros 14,28% têm avanço insuficiente. Mais de 80% dos compromissos acordados estão em retrocesso, sob ameaça ou estagnados. As metas que demonstravam retrocesso passaram de 92 para 103. O progresso insuficiente, que havia sido observado em 13 objetivos, agora atinge 23 deles.</p>
+                </th>
+                <th><img src="img/Bus.png" id="img"></th>
+              </tr>
+          </table>
+        </div>
+         <!-- Fim Texto do Brasil - Table -->
+
+         <!-- Grafico -->
+        <center><img src="img/Gráfico.png" class="img-fluid my-5"><br></center>
+         <!-- Fim Grafico -->
+
+        <!-- Texto No mundo -->
+        <p id="tittle">No Mundo</p>
+        <p class="f-6"><b>O primeiro lugar na lista deste ano foi conquistado pela Dinamarca, seguida por Suíça, Singapura, Suécia e Hong Kong. Olhando assim, dá para perceber que há algo em comum entre essas nações, não é mesmo? Considerados países desenvolvidos, todos eles possuem também um alto índice de Desenvolvimento Humano (IDH). São locais muito ricos, com dinheiro e capacidade para investir em pesquisas e criação de novas indústrias e tecnologias.</b></p>
+        <center><img src="img/beleza_2.PNG" class="img-fluid my-5"></center>
+
+        <p id="tittle">Outro lado da moeda</p>
+        <div class="table-responsive" id="seila">        
+          <table class="table-borderless">
+              <tr>
+                <th><p class="f-6">No outro polo, entre os menos competitivos, abaixo do Brasil, estão África do Sul (60ª posição), Mongólia (61ª), Argentina (62ª) e Venezuela (63ª). Assim, essa defasagem que já é grande, tende a aumentar ainda mais, porque os países mais pobres acabam se tornando dependentes dos avanços econômicos e tecnológicos das regiões mais ricas e desenvolvidas.</p>
+                </th>
+                <th><img src="img/Sub_1.png" id="img"></th>
+              </tr>
+          </table>
+          <div class="table-responsive p-1">        
+            <table class="table-borderless">
+                <tr>
+                  <th class="text-fluid"><p class="f-6">Países subdesenvolvidos sofrem uma forte influência de empresas multinacionais, que acabam sendo seus os principais centros produtivos. Porém, as empresas estrangeiras, no geral, têm pouco interesse em promover o desenvolvimento tecnológico do local onde estão instaladas suas filiais: elas buscam atender seus próprios interesses.</p>
+                  </th>
+                  <th><img src="img/Sub_2.png" id="img"></th>
+                </tr>
+            </table>
+          <!-- Texto No mundo -->
+        <div class="footer"><img src="img/Footer.png" class="img-fluid"></div>
     </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="imgs/ODS grande.png" alt="ODS-9" class="d-block w-100" style="width:45%">
-        <div class="carousel-caption">
-          <h3>ODS-9</h3>
-          <p>ODS-9</p>
-        </div> 
-      </div> <!--fechamento da ID "ladinho"--></div>
-
-      <div class="carousel-item">
-        <img src="imgs/Indústria industrializada.png" alt="Indústria" class="d-block w-100" style="width:45%">
-        <div class="carousel-caption">
-          <h3>Indústria</h3>
-          <p>Indústria</p>
-        </div> 
-      </div>
-
-      <div class="carousel-item">
-        <img src="imgs/Inovação inovadora.png" alt="Inovação" class="d-block w-100" style="width:45%">
-        <div class="carousel-caption">
-          <h3>Inovação</h3>
-          <p>Inovação</p>
-        </div>  
-      </div>
-    
-
-    <div class="carousel-item">
-        <img src="imgs/Infraestrutura estruturada.png" alt="Infraestrutura" class="d-block w-100" style="width:45%">
-        <div class="carousel-caption">
-          <h3>Infraestrutura</h3>
-          <p>Infraestrutura</p>
-        </div>  
-      </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-      </div>
-
-      <!--Componentes da explicação-->
-      <div class="ladinho-2">
-      <div class="container"><font color="#ffffff">
-        <h1>Indústria</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, odit soluta. Facilis voluptates sit tenetur nisi, quaerat eveniet consectetur praesentium. Eos doloribus dolor possimus eveniet explicabo eius assumenda doloremque alias.</p>
-      </div><br><br><br><br><br><br><br><br><br><br>
-
-      <div class="container">
-        <h1>Inovação</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque modi, autem quo nisi eius quas, facere temporibus dicta iure delectus corporis harum ut dolore. Debitis voluptatibus expedita vero odio illum.</p>
-      </div><br><br><br><br><br><br><br><br><br><br><br><br>
-
-      <div class="container">
-        <h1>Infraestrutura</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, labore nulla, molestiae doloremque officia ipsa corrupti iure ducimus officiis similique quasi atque, autem explicabo aut quam est. Ab, aut at!</p>
-      </div>
-    </div>
-    </font>
-        <div class="img-1"> <img src="imgs/Indústria.png"> </div>
-        <div class="img-2"> <img src="imgs/Infraestrutura.png"> </div>
-        <div class="img-3"> <img src="imgs/Inovação.png"> </div>
-      </div><br><br><br><br><br><br><br><br><br><br><br><br>
-
-        <h1>
-          <b>Objetivos</b>
-      </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam sequi velit, in, quia, veniam fuga id nam quam beatae sed repellendus voluptatum harum. Quis cum tempora dolore ratione nostrum.</p>
-    </div><br><br><br><br><br><br><br><br><br><br><br><br>
-
-    <!--Acordeão (Achar uma solução)-->
-    <div id="accordion">
-
-      <div class="card">
-        <div class="card-header">
-          <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-            Meta 9.1
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
-          </div>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-            Meta 9.2
-          </a>
-        </div>
-        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
-          </div>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-            Meta 9.3
-          </a>
-        </div>
-        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
-            Meta 9.4
-          </a>
-        </div>
-        <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a harum? Sit, dolorem at mollitia fuga quasi voluptatibus magni nam quibusdam quaerat, dignissimos, natus hic ducimus sunt aliquid quisquam a.
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <a class="btn" data-bs-toggle="collapse" href="#collapseFive">
-            Meta 9.5
-          </a>
-        </div>
-        <div id="collapseFive" class="collapse show" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
-          </div>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
-            Meta 9.a
-          </a>
-        </div>
-        <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
-          </div>
-        </div>
-      </div>
-    
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
-            Meta 9.b
-          </a>
-        </div>
-        <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum..
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header">
-          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
-            Meta 9.c
-          </a>
-        </div>
-        <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
-          <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, a harum? Sit, dolorem at mollitia fuga quasi voluptatibus magni nam quibusdam quaerat, dignissimos, natus hic ducimus sunt aliquid quisquam a.
-          </div>
-        </div>
-      </div>
-    
-    </div>
-
 </body>
 </html>
