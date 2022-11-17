@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wraaper>
+    <corpo codigo="1">
+<!--Introdução-->    
+        <titulo>O que são as ODS?</titulo>
+        <textointro>Os Objetivos de Desenvolvimento Sustentável (ODS) são parte de um projeto mais amplo, a Agenda 2030, adotada em 2015, durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável.
+        São 17 objetivos – 16 temáticos e 1 sobre meios de implementação – desdobrados em 169 metas e 231 indicadores.
+        O ODS 9 fala sobre “desenvolvimento de infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no acesso equitativo e preços acessíveis para todos”. 
+        Se levarmos em conta que mais da metade da população global vive em cidades, questões como transportes de massa e energias renováveis são cada vez mais importantes.</textointro>
+        <imagemintro>onu.png</imagemintro>
+        
+<!--Abordando mais sobre o tema-->        
+        <container1>Indústria:
+        A industrialização é um setor de enorme importância para o desenvolvimento de uma sociedade pois gera: crescimento econômico; impulsiona o desenvolvimento de novas tecnologias; cria oportunidades de trabalho e consequentemente reduz a pobreza.
+        </container1>
+        <imagemind>Indústria.png</imagemind>
+
+        <container2>Inovação:
+        Inovação não é necessariamente sobre fazer algo do “zero” (o que seria uma “invenção”), mas sim melhorar produtos, sistemas, estruturas e afins com o objetivo de alcançar melhores resultados e capturar mais valor.
+        </container2>
+        <imagemino>Inovação.png</imagemino>
+
+        <container3>Infraestrutura:
+        Para que uma sociedade possa realizar suas atividades produtivas é preciso que haja condições fundamentais para isso esse conjunto de estruturas essenciais é chamado de infraestrutura e seus principais elementos são: sistemas de geração e distribuição de energia; de água e saneamento; de transporte terrestre, marítimo e aéreo; e de telecomunicações. 
+        Uma infraestrutura resiliente é aquela preparada para lidar com os efeitos de situações adversas e desastres como enchentes e terremotos. Os serviços de infraestrutura têm que estar amplamente acessíveis a população o que exige grandes investimentos.
+        </container3>
+        <imageminf>Infraestrutura.png</imageminf>
+
+<!--Objetivos-->
+        <titulo-obj>Objetivos</titulo-obj>
+        <texto-obj> É importante ressaltar que esses objetivos envolvem medidas para melhoria na saúde, educação, economia, redução das desigualdades, violências, impactos ambientais, entre outros. Tudo em busca de um mundo melhor.</texto-obj>
+
+<!--Metas da ODS-->
+
+        <meta9-1>Meta 9.1</meta9-1>
+        <meta-9-ti>Nações Unidas</meta-9-ti>
+        <meta-9-nacoes>Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e
+        o bem-estar humano, com foco no acesso equitativo e a preços acessíveis para todos.</meta-9-nacoes>
+        <meta-9-bra>Brasil</meta-9-bra>
+        <meta-9-bratext>Aprimorar o sistema viário do País, com foco em sustentabilidade e segurança no trânsito e transporte, equalizando as desigualdades regionais, promovendo a integração regional 
+        e transfronteiriça, na busca de menor custo, para o transporte de passageiros e de cargas, evitando perdas, com maior participação dos modos de alta capacidade como ferroviário,
+        aquaviário e dutoviário, tornando-o acessível e proporcionando bem-estar a todos.</meta-9-bratext>
+
+        <TM2>Meta 9.2</TM2>
+        <meta-2-t>Nações Unidas</meta-2-t>
+        <meta9-2-n> Promover a industrialização inclusiva e sustentável e, até 2030, aumentar significativamente a participação da indústria no emprego e no produto interno bruto, de acordo com as circunstâncias 
+        nacionais, e dobrar sua participação nos países de menor desenvolvimento relativo.</meta9-2-n>
+        <meta9-2-bra>Brasil</meta9-2-bra>
+        <meta9-2-bratext>Até 2030, promover a atividade econômica inclusiva e sustentável e a atividade de alta complexidade tecnológica, com foco na elevação da produtividade, do emprego e do PIB
+        , e com melhora nas condições de trabalho e na apropriação dos ganhos de produtividade advindos.</meta9-2-bratext>
+        
+        <TM3>Meta 9.3</TM3>
+        <meta-3-t>Nações Unidas</meta-3-t>
+        <meta9-3-n>  Aumentar o acesso das pequenas indústrias e outras empresas, particularmente em países em desenvolvimento, aos serviços financeiros, incluindo crédito acessível e propiciar 
+        sua integração em cadeias de valor e mercados.</meta9-3-n>
+        <meta9-3-bra>Brasil</meta9-3-bra>
+        <meta9-3-bratext>Aumentar e desburocratizar o acesso das micro e pequenas empresas a todos os serviços financeiros, garantindo crédito em condições adequadas à realidade dessas empresas, inclusive por meio de soluções tecnológicas inovadoras, para propiciar sua integração em cadeias de valor e mercados.</meta9-3-bratext>
+
+        <TM4>Meta 9.4</TM4>
+        <meta-4-t>Nações Unidas</meta-4-t>
+        <meta9-4-n>  Até 2030, modernizar a infraestrutura e reabilitar as indústrias para torná-las sustentáveis, com eficiência aumentada no uso de recursos e maior adoção de tecnologias e processos industriais limpos e ambientalmente adequados; com todos os países atuando de acordo com suas respectivas capacidades.</meta9-4-n>
+        <meta9-4-bra>Brasil</meta9-4-bra>
+        <meta9-4-bratext>Até 2030, modernizar a infraestrutura e reabilitar as atividades econômicas para torná-las sustentáveis, com foco no uso de recursos renováveis e maior adoção de tecnologias e processos industriais limpos e ambientalmente adequados.</meta9-4-bratext>
+
+        <TM5>Meta 9.5</TM5>
+        <meta-5-t>Nações Unidas</meta-5-t>
+        <meta9-5-n> Fortalecer a pesquisa científica, melhorar as capacidades tecnológicas de setores industriais em todos os países, particularmente nos países em desenvolvimento, inclusive, até 2030, incentivando a inovação e aumentando substancialmente o número de trabalhadores de pesquisa e desenvolvimento por milhão de pessoas e os gastos público e privado em pesquisa e desenvolvimento.</meta9-5-n>
+        <meta9-5-bra>Brasil</meta9-5-bra>
+        <meta9-5-bratext>Fortalecer a pesquisa científica e melhorar as capacidades tecnológicas das empresas, incentivando, até 2030, a inovação, visando aumentar o emprego do conhecimento científico e tecnológico nos desafios socioeconômicos nacionais e nas tecnologias socio ambientalmente inclusivas; e aumentar a produtividade agregada da economia.
+        a) Aumentar para 3.000 o número de trabalhadores de pesquisa e desenvolvimento por milhão de habitantes;
+        b) Aumentar para 120.000 o número de técnicos e pesquisadores ocupados em PD nas empresas; e
+        c) Aumentar para 2,00% os gastos público e privado em pesquisa e desenvolvimento em relação ao PIB.</meta9-5-bratext>
+
+        <TMA>Meta 9.A</TMA>
+        <meta-A-t>Nações Unidas</meta-A-t>
+        <meta9-A-n> Facilitar o desenvolvimento de infraestrutura sustentável e resiliente em países em desenvolvimento, por meio de maior apoio financeiro, tecnológico e técnico aos países africanos, aos países de menor desenvolvimento relativo, aos países em desenvolvimento sem litoral e aos pequenos Estados insulares em desenvolvimento.</meta9-A-n>
+        <meta9-A-bra>Brasil</meta9-A-bra>
+        <meta9-A-bratext> Meta mantida sem alteração.</meta9-A-bratext>
+
+        <TMB>Meta 9.B</TMB>
+        <meta-B-t>Nações Unidas</meta-B-t>
+        <meta9-B-n> Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais nos países em desenvolvimento, inclusive garantindo um ambiente político propício para, entre outras coisas, diversificação industrial e agregação de valor às commodities.</meta9-B-n>
+        <meta9-B-bra>Brasil</meta9-B-bra>
+        <meta9-B-bratext> Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais, por meio de políticas públicas que assegurem um ambiente institucional e normativo favorável para, entre outras coisas, promover a diversificação industrial e a agregação de valor às commodities.</meta9-B-bratext>
+
+        <TMC>Meta 9.C</TMC>
+        <meta-C-t>Nações Unidas</meta-C-t>
+        <meta9-C-n> Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais nos países em desenvolvimento, inclusive garantindo um amCiente político propício para, entre outras coisas, diversificação industrial e agregação de valor às commodities.</meta9-C-n>
+        <meta9-C-bra>Brasil</meta9-C-bra>
+        <meta9-C-bratext> Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais, por meio de políticas públicas que assegurem um ambiente institucional e normativo favorável para, entre outras coisas, promover a diversificação industrial e a agregação de valor às commodities.</meta9-C-bratext>
+
+<!--Situação no Brasil-->
+        <T_B>No Brasil</T_B>
+
+        <TXT_B>Em uma lista que analisa fatores como performance econômica, eficiência do governo, eficiência empresarial e infraestrutura de 63 países, o Brasil alcança o 59º lugar. Em 2022, o país perdeu duas posições em relação a 2021, segundo análise do International Institute for Management Development (IMD), com sede na Suíça.
+        De acordo com a pesquisadora Laura Cury, co-facilitadora do Grupo de Grupo de Trabalho (GT) da Sociedade Civil para a Agenda 2030 e assessora de relações internacionais da ACT Promoção em Saúde, o diagnóstico feito pela sexta edição do Relatório Luz é grave.
+        Segundo o levantamento, que traça um panorama da implementação das metas, apenas 0,59% dos 168 pontos analisados apresentam progresso satisfatório. Outros 14,28% têm avanço insuficiente. Mais de 80% dos compromissos acordados estão em retrocesso, sob ameaça ou estagnados. As metas que demonstravam retrocesso passaram de 92 para 103. O progresso insuficiente, que havia sido observado em 13 objetivos, agora atinge 23 deles.</TXT_B>
+        <Img_B>Bus.png</Img_B>
+
+        <img_graf>Gráfico.png</img_graf>
+
+<!--Situação no mundo -->
+        <M>No mundo</M>
+        <T-M>O primeiro lugar na lista deste ano foi conquistado pela Dinamarca, seguida por Suíça, Singapura, Suécia e Hong Kong. Olhando assim, dá para perceber que há algo em comum entre essas nações, não é mesmo? Considerados países desenvolvidos, todos eles possuem também um alto índice de Desenvolvimento Humano (IDH). São locais muito ricos, com dinheiro e capacidade para investir em pesquisas e criação de novas indústrias e tecnologias.</T-M>
+
+        <IMG_Rank>beleza_2.png</IMG_Rank>
+
+<!--Outro lado da moeda-->
+
+    <moeda> Outro lado da moeda</moeda>
+    <T_moeda>No outro polo, entre os menos competitivos, abaixo do Brasil, estão África do Sul (60ª posição), Mongólia (61ª), Argentina (62ª) e Venezuela (63ª). Assim, essa defasagem que já é grande, tende a aumentar ainda mais, porque os países mais pobres acabam se tornando dependentes dos avanços econômicos e tecnológicos das regiões mais ricas e desenvolvidas.</T_moeda>
+    <img_moeda>Sub_1.png</img_moeda>
+
+    <T2_moeda>Países subdesenvolvidos sofrem uma forte influência de empresas multinacionais, que acabam sendo seus os principais centros produtivos. Porém, as empresas estrangeiras, no geral, têm pouco interesse em promover o desenvolvimento tecnológico do local onde estão instaladas suas filiais: elas buscam atender seus próprios interesses.</T2_moeda>
+    <img2_moeda>Sub_2.png</img2_moeda>
+
+    <imagem-rodape>Footer.png</imagem-rodape>
+    </corpo>
+</wraaper>

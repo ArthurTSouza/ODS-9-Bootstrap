@@ -4,7 +4,7 @@
 }
 .wraaper{
     width: 100%;
-    height: 750vh;
+    height: 690vh;
     top: 0%;
     left: 0%;
     position: absolute;
@@ -66,8 +66,8 @@
 }
 .footer{
     width: 100%;
-    height: 5%;
-    top: 750vh;
+    height: 6%;
+    top: 690vh;
     left: 0%;
     position: absolute;
     background-color: #F84A00;
