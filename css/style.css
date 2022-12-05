@@ -2,15 +2,16 @@
 #cor{
     background-color: #F26A2E;
 }
-.wraaper{
+.listra-1{
     width: 100%;
-    height: 690vh;
+    height: 230vh;
     top: 0%;
     left: 0%;
     position: absolute;
-    background-color: #EA9D7B;
+    background-color: #F26A2E;
    
 }
+
 #inicio{
     width: 100%;
     height: 3%;

@@ -14,6 +14,7 @@ function corpoTitulo(){
         document.write(x[i].getElementsByTagName("titulo")[0].childNodes[0].nodeValue);
     }
 }
+
 function corpotexto(){
     for(a=0;a<=1;a++){
         document.write(
@@ -24,6 +25,7 @@ function corpotexto(){
     );
     }
 }
+
 function container1(){
     for(b=0;b<=1;b++){
         document.write(
@@ -231,5 +233,33 @@ function Outro_Lado(){
 function rodape(){
     for(i=0;i<=1;i++){
         document.write("<img src='img/"+x[i].getElementsByTagName("imagem-rodape")[0].childNodes[0].nodeValue+"' class='img-fluid'>");
+    }
+}
+
+
+
+
+//cria uma variável para manipular um aquivo XML
+xmlhttp = new XMLHttpRequest();
+//lê um determinado arquivo xml no diretório do projeto
+xmlhttp.open("GET","xml/conteudo.xml",false);
+//envia o arquivo aberto para a leitura
+xmlhttp.send();
+//envia uma resposta do tipo XML
+xmlDoc = xmlhttp.responseXML;
+
+//cria um array a partir da quantidade de postagens
+x = xmlDoc.getElementsByTagName("noticias");
+
+
+
+function funcaoConteudo(){
+    for(p=x.length-1; p>=0; p--){
+    document.write(
+        "<tr>" +
+            "<td> <img src='imgs/" + x[p].getElementsByTagName("imagem")[0].childNodes[0].nodeValue + "' width='150'></td>" +  
+            "<td><a href='postagem.html?codigo_postagem=" + p + "'>" + x[p].getElementsByTagName("titulo-noticia")[0].childNodes[0].nodeValue + "</a></td>" +
+            "<td>" + x[p].getElementsByTagName("corpo")[0].childNodes[0].nodeValue.substr(0,150) + "</td>" +
+        "</tr>");
     }
 }

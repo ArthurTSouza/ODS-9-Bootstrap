@@ -116,4 +116,73 @@
 
     <imagem-rodape>Footer.png</imagem-rodape>
     </corpo>
+        <!--Notícias para o blog-->
+
+<noticias>
+
+<titulo-noticia>Brasil perde duas posições em ranking mundial de competitividade </titulo-noticia>
+
+<corpo> Em uma lista que analisa fatores como performance econômica, eficiência do governo, eficiência empresarial e infraestrutura de 63 países, o Brasil alcança o 59º lugar. Em 2022, o país perdeu duas posições em relação a 2021, segundo análise do International Institute for Management Development (IMD), com sede na Suíça. O primeiro lugar na lista deste ano foi conquistado pela Dinamarca, seguida por Suíça, Singapura, Suécia e Hong Kong. No outro polo, entre os menos competitivos, abaixo do Brasil, estão África do Sul (60ª posição), Mongolia (61ª), Argentina (62ª) e Venezuela (63ª). Na lista de competividade, que ao todo compara 20 fatores, o Brasil ocupa o último lugar quando o tema analisado é Educação, o que influenciou no cálculo que definiu a posição do país no ranking do IMD. Para a média geral, outro quesito analisado é Produtividade e Eficiência, que também coloca a nação verde e amarela na 59ª posição. Nesse quesito, um dos fatores que podem estar resultando na baixa competitividade brasileira são os escassos investimentos na chamada Indústria 4.0, que basicamente consiste na capacidade de incluir tecnologia e inovação nos processos produtivos desse setor. Segundo dados da Sondagem Especial - Indústria 4.0 - Cinco Anos Depois, realizada pela Confederação Nacional da Indústria (CNI) e divulgada no último mês de abril, houve aumento de tecnologias na indústria brasileira, mas a adoção de fundamentos da chamada Quarta Revolução Industrial ainda é incipiente. Em uma lista de 18 tecnologias diferentes a serem adotadas pelas empresas, 69% dos participantes da pesquisa disseram que utilizam ao menos uma. Apenas 7% disseram utilizar 10 ou mais tecnologias.
+
+Na experiência do engenheiro mecânico Carlos Henrique Zanini Marlieri, a adoção de novas tecnologias poderia ajudar a indústria brasileira a atingir outro estágio de competitividade. "Calcula-se que implementando tecnologias relacionadas aos conceitos da Indústria 4.0, o Brasil poderia crescer continuamente gerando lucros para indústria brasileira e inserir-se no mercado globalizado, elevando a competitividade a outro patamar econômico, através de processos produtivos mais eficientes, eliminação de desperdícios, menores custos de manutenção, consumo de energia, inovações tecnológicas, entre outros", afirma ele, que tem 25 anos de experiência na área industrial. Marlieri comenta que a falta de profissionais preparados, pouca infraestrutura em equipamentos e automação, além do baixo investimento em novas tecnologias, ainda são entraves para o país acelerar a transformação digital que a indústria precisa para se tornar mais competitiva.
+
+"Apesar dos avanços mundiais, o cenário no Brasil evolui devagar, sendo muitas vezes mais um conceito do que propriamente uma realidade aplicada, visto que são poucas as indústrias que contam com recursos avançados de tecnologia. Atualmente, menos de 10% das indústrias brasileiras estão inseridas adequadamente no conceito de indústria 4.0, pois não possuem os requisitos mínimos de automação e controle, além de profissionais qualificados", analisa.
+
+Capacitação de profissionais é necessária para melhorar competitividade
+
+Carlos Henrique Marlieri comenta também que ainda que esteja devagar em relação a outros país, no que se refere à implementação do conceito de Indústria 4.0, esse é o futuro da indústria brasileira, se quiser continuar competindo num mercado globalizado e cada vez mais tecnológico.
+
+No que se refere a recursos humanos para garantir essa transformação, a demanda por profissionais capacitados só tende a aumentar. "Do ponto de vista humano, pessoas irão fazer a diferença e os profissionais do mercado de trabalho precisam se adequar à essa nova realidade. Cada vez mais automatizado, o mercado exigirá um novo profissional, com habilidades técnicas e interpessoais específicas, como boa capacidade de adaptação e preparação para atender questões que talvez não tenham feito parte de seu currículo de aprendizado", diz.
+
+O profissional, que atua com gerenciamento de ativos na indústria, ressalta que as empresas também precisarão se adequar à realidade de profissionais que serão cada vez mais disputados pelo mercado. "As empresas precisarão adaptar-se a hierarquias flexíveis, de forma a compensar o desempenho, criar estratégias e reter talentos competentes", observa.
+
+De acordo com o Mapa do Trabalho 2022-2025, organizado pela CNI, o Brasil precisará qualificar 9,6 milhões de trabalhadores em ocupações industriais até 2025, fazendo investimentos em formação inicial e continuada.
+
+Notícia retirada do site: https://www.terra.com.br/noticias/brasil-perde-duas-posicoes-em-ranking-mundial-de-competitividade,eb5b0842eac35747b38d2cf4173654f3q389orqz.html#:~:text=Em%20uma%20lista%20que%20analisa,)%2C%20com%20sede%20na%20Su%C3%AD%C3%A7a.
+<corpo>
+<imagem>beleza_2.PNG</imagem>
+
+<!--2ª notícia-->
+<titulo-noticia>Brasil está atrasado em mais de 80% das metas de desenvolvimento sustentável da ONU</titulo-noticia->
+
+<corpo>O Brasil está cada vez mais distante do cumprimento de Objetivos de Desenvolvimento Sustentável (ODS) estabelecidos pela Organização das Nações Unidas (ONU) e que têm prazo até 2030. A avaliação é do Relatório Luz, produzido por mais de 60 organizações da sociedade civil.
+
+Segundo o levantamento, que traça um panorama da implementação das metas, apenas 0,59% dos 168 pontos analisados apresentam progresso satisfatório. Outros 14,28% têm avanço insuficiente. Mais de 80% dos compromissos acordados estão em retrocesso, sob ameaça ou estagnados.
+
+A chamada Agenda 2030 visa promover a sustentabilidade em três eixos: social, ambiental e econômico. Ela foi pactuada por todos os países membros da ONU em 2015.
+
+De acordo com a pesquisadora Laura Cury, co-facilitadora do Grupo de Grupo de Trabalho (GT) da Sociedade Civil para a Agenda 2030 e assessora de relações internacionais da ACT Promoção em Saúde, o diagnóstico feito pela sexta edição do Relatório Luz é grave.
+
+"É uma análise bastante preocupante de como está a implementação, ou no caso, a não implementação dessa agenda em território nacional, que efetivamente diz respeito à qualidade de vida das pessoas e a preservação do planeta."
+
+Apagão de dados
+
+Além de estar atrasado no cumprimento dos ODS, o Brasil falha em garantir informações sobre o andamento de alguns setores. O Relatório Luz não conseguiu dados sobre 4,76% das metas avaliadas. 
+
+"Nós temos apontado, principalmente desde 2019, que estamos passando por um apagão de dados. Nós não temos dados atualizados sobre diversas dessas metas, o que é um problema para conseguirmos entender, inclusive, a orientação da política pública do país. Ela sempre precisa ser baseada em evidências. Se não temos esse acompanhamento, fica muito difícil fazer um diagnóstico mais preciso e saber onde temos que fazer ajustes e arrumar os rumos do país", alerta Laura Cury. 
+
+A edição mais atual do Relatório Luz mostra ainda que o número de metas em retrocesso aumentou desde a versão anterior do documento, publicada em julho de 2021. Elas passaram de 92 para 103. O progresso insuficiente, que havia sido observado em 13 objetivos, agora atinge 23 deles. 
+
+Laura Cury afirma que o atraso do Brasil é ainda mais absurdo frente ao fato de que o país teve grande protagonismo na elaboração dos ODS. Ela ressalta que boa parte dos compromissos acordados já estão previstos na constituição brasileira. Portanto, já deveriam ser alvo de atenção do poder público mesmo antes do acordo das Nações Unidas.
+
+"A constituição fala de acesso à saúde, educação, moradia, da promoção de direitos de humanos. Isso está previsto constitucionalmente. É uma agenda que faz total sentido para o Brasil e faz sentido em todos os contextos. É uma agenda que foi acordada por 193 países, inclusive o Brasil. Esse tipo de negociação internacional é difícil. Para todos os países terem acordados é porque, realmente, isso faz sentido."
+
+O Relatório Luz foi elaborado por 101 especialistas, de 48 organizações da sociedade civil, com base em dados oficiais. Ele traz também 116 recomendações para que seja revertido o cenário de atraso protagonizado pelo Brasil.
+
+Apresentado em audiência no Congresso Nacional nesta quinta-feira (30), o documento também será levado ao Fórum Político de Alto Nível da ONU. O encontro da instância que faz monitoramento da implementação da Agenda 2030 acontecerá em Nova York, nos Estados Unidos. 
+
+Notícia retirada do site: https://www.brasildefato.com.br/2022/06/30/brasil-esta-atrasado-em-mais-de-80-das-metas-de-desenvolvimento-sustentavel-da-onu
+ </corpo>
+
+ <imagem>beleza_2.PNG</imagem>
+
+<!--3ª notícia-->
+
+<titulo-noticia->aa</titulo-noticia->
+
+
+<corpo>aa</corpo>
+
+<imagem>beleza_2.PNG</imagem>
+</noticias>
 </wraaper>
